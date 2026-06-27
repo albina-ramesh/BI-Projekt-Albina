@@ -30,14 +30,16 @@ GROQ_API_KEY=gsk_dein_key_hier
 
 ### Starten
 
-```bash
 # Schritt 1: Daten generieren
+```bash
 python schritt1_daten_erstellen.py
-
+```
 # Schritt 2: Datenbank aufbauen
+```bash
 python schritt2_datenbank.py
-
+```
 # Schritt 3: Web-Interface starten
+```bash
 streamlit run app.py
 ```
 
