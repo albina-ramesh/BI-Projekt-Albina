@@ -256,7 +256,17 @@ freshmart-bi-agent/
 | *Vergleiche Q1 mit Q4* | Quartalsvergleich |
 
 ---
+## Visualisierungen – Interaktive Diagramme
 
+Zusätzlich zum AI-Agent wurde ein interaktives Dashboard mit Plotly-Diagrammen entwickelt, das direkt im Streamlit Web-Interface angezeigt wird. Die Visualisierungen ermöglichen es, die Verkaufsdaten auf einen Blick zu erfassen, ohne zuerst eine Frage an den Agenten stellen zu müssen.
+
+Das Dashboard ist in 5 Tabs unterteilt:
+
+TabDiagramme🏪 FilialenBalkendiagramm Umsatz pro Filiale + Marge pro Filiale📦 ProdukteTop 10 Produkte (horizontal) + Kuchendiagramm Kategorienanteile📈 MonatstrendLiniendiagramm Umsatz & Gewinn + Balken Transaktionen pro Monat📅 WochentageUmsatz nach Wochentag + Durchschnittlicher Bon nach Wochentag💳 ZahlungenKuchendiagramm Zahlungsmethoden + Umsatz nach Zahlungsmethode
+
+Die Diagramme werden direkt aus der SQLite-Datenbank geladen und sind interaktiv, der Benutzer kann zoomen, filtern und einzelne Datenpunkte anklicken. Dadurch entsteht eine vollständige BI-Lösung, die sowohl klassische Datenvisualisierung als auch moderne Agentic AI kombiniert.
+
+---
 ## Nutzen für Business Intelligence
 
 Durch die gewählte Datenstruktur und den AI-Agenten können folgende Fragestellungen automatisch beantwortet werden:
