@@ -255,21 +255,6 @@ streamlit run app.py
 
 ---
 
-## Bezug zum Kursinhalt
-
-| Kurs-Thema | Woche | Anwendung im Projekt |
-|------------|-------|---------------------|
-| BI Grundlagen und Datenquellen | 1 | Excel als Rohdatenquelle, KPI-Definition |
-| SQL und relationale Datenbanken | 1, 3 | SQLite mit Fakt- und Dimensionstabellen |
-| Data Warehouse Konzepte | 3, 4 | Normalisiertes Schema, SQL-Views |
-| Statistische Modelle und Analytik | 5 | Trend- und Margenanalyse |
-| Zeitreihenanalyse | 8 | Monatstrend, Quartalsvergleich |
-| Data Cleansing und Wrangling | 10 | Excel in Datenbank mit Validierung |
-| Agents in Business Intelligence | 11 | AI-Agent mit Tool-Calling |
-| BI und Agentic AI Workshop | 12, 13 | Vollständige Agenten-Implementierung |
-
----
-
 ## Nutzen für Business Intelligence
 
 Durch die gewählte Datenstruktur und den AI-Agenten können folgende Fragestellungen automatisch beantwortet werden:
