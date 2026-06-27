@@ -1,0 +1,15 @@
+# API-Key (NIEMALS auf GitHub hochladen!)
+.env
+
+# Datenbank (wird automatisch generiert)
+*.db
+freshmart.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# System
+.DS_Store
+Thumbs.db
