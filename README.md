@@ -266,4 +266,4 @@ Durch die gewählte Datenstruktur und den AI-Agenten können folgende Fragestell
 - Wann kaufen Kunden am meisten ein (Wochentag, Uhrzeit, Saison)?
 - Welche Handlungsempfehlungen ergeben sich für das Management?
 
-Der AI-Agent kombiniert dabei klassische BI-Methoden (SQL-Abfragen, Aggregationen, Trends) mit modernen KI-Fähigkeiten (natürlichsprachliche Verarbeitung, automatische Empfehlungen) — genau im Sinne der Agentic Analytics.
+Der AI-Agent kombiniert dabei klassische BI-Methoden (SQL-Abfragen, Aggregationen, Trends) mit modernen KI-Fähigkeiten (natürlichsprachliche Verarbeitung, automatische Empfehlungen) genau im Sinne der Agentic Analytics.
