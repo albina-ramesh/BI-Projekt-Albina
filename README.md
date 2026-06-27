@@ -8,6 +8,40 @@
 **Jahr:** 2026
 
 ---
+## Installation und Start
+
+### Voraussetzungen
+- Python 3.10 oder höher
+- Groq API-Key (kostenlos auf [console.groq.com/keys](https://console.groq.com/keys))
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### API-Key konfigurieren
+
+1. `.env.example` kopieren und umbenennen zu `.env`
+2. Deinen Groq-Key eintragen:
+```
+GROQ_API_KEY=gsk_dein_key_hier
+```
+
+### Starten
+
+```bash
+# Schritt 1: Daten generieren
+python schritt1_daten_erstellen.py
+
+# Schritt 2: Datenbank aufbauen
+python schritt2_datenbank.py
+
+# Schritt 3: Web-Interface starten
+streamlit run app.py
+```
+
+---
 
 ## Unternehmensbeschreibung
 
@@ -203,41 +237,6 @@ freshmart-bi-agent/
 ├── .env.example                 → Vorlage für API-Key
 ├── .gitignore                   → Schützt .env und Datenbank
 └── README.md                    → Diese Dokumentation
-```
-
----
-
-## Installation und Start
-
-### Voraussetzungen
-- Python 3.10 oder höher
-- Groq API-Key (kostenlos auf [console.groq.com/keys](https://console.groq.com/keys))
-
-### Installation
-
-```bash
-pip install -r requirements.txt
-```
-
-### API-Key konfigurieren
-
-1. `.env.example` kopieren und umbenennen zu `.env`
-2. Deinen Groq-Key eintragen:
-```
-GROQ_API_KEY=gsk_dein_key_hier
-```
-
-### Starten
-
-```bash
-# Schritt 1: Daten generieren (einmalig)
-python schritt1_daten_erstellen.py
-
-# Schritt 2: Datenbank aufbauen (einmalig)
-python schritt2_datenbank.py
-
-# Schritt 3: Web-Interface starten
-streamlit run app.py
 ```
 
 ---
