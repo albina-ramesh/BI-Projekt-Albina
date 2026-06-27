@@ -3,6 +3,7 @@
 **Autor:** Albina Ramesh
 **Kurs:** Business Intelligence
 **Dozent:** Prof. Dr. Manuel Renold
+
 **Hochschule:** FHNW – University of Applied Sciences and Arts Northwestern Switzerland
 **Jahr:** 2026
 
